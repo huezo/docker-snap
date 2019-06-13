@@ -1,16 +1,8 @@
 # Docker Snap
 
-:lock: This repository has been archived.
+[![Snap Status](https://build.snapcraft.io/badge/huezo/docker-snap.svg)](https://build.snapcraft.io/user/huezo/docker-snap)
 
-> *NOTE:* The Docker Snap is no longer maintained by Docker, Inc.  The last
-> release version was 17.06.2.  The future of the Docker Snap is unclear, but it
-> won't be developed here going forward. The source at
-> https://code.launchpad.net/~docker/+git/snap appears to be where new
-> development efforts are taking place, and the Snapcraft forums
-> (https://forum.snapcraft.io/) are probably your best bet to reach the new
-> maintainers.
 
----
 
 This repository contains the source for the `docker` snap package.  The package provides a distribution of Docker Community Edition (CE) for Ubuntu Core 16 (and other snap-compatible) systems.  It is built from an upstream Docker CE release tag with some patches to fit the snap format and is available on `armhf`, `arm64`, `amd64`, `i386`, and `ppc64el` architectures.  The rest of this page describes installation, usage, and development.
 
@@ -40,7 +32,7 @@ If you are using an alternative snap-compatible Linux distribution ("classic" in
       $ sudo snap disable docker
       $ sudo snap enable docker
 
-## Usage
+
 
 Docker should function normally, with the following caveats:
 
@@ -93,3 +85,26 @@ Developing the `docker` snap package is typically performed on a "classic" Ubunt
       :network              docker
       :network-bind         docker
       docker:docker-daemon  docker:docker-cli
+      
+      
+      
+      
+      
+```
+## Usage
+
+
+
+:lock: This repository has been archived.
+
+> *NOTE:* The Docker Snap is no longer maintained by Docker, Inc.  The last
+> release version was 17.06.2.  The future of the Docker Snap is unclear, but it
+> won't be developed here going forward. The source at
+> https://code.launchpad.net/~docker/+git/snap appears to be where new
+> development efforts are taking place, and the Snapcraft forums
+> (https://forum.snapcraft.io/) are probably your best bet to reach the new
+> maintainers.
+
+---
+```
+
