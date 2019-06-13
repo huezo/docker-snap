@@ -1,5 +1,7 @@
 # Docker Snap
 
+# Snap Status
+
 [![Snap Status](https://build.snapcraft.io/badge/huezo/docker-snap.svg)](https://build.snapcraft.io/user/huezo/docker-snap)
 
 
